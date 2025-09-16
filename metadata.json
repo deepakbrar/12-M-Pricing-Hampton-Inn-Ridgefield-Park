@@ -1,0 +1,5 @@
+{
+  "name": "Hotel Rate Calculator",
+  "description": "An advanced rate calculator for hotel room pricing based on date range, occupancy, and tiered pricing sheets for 2025 and 2026.",
+  "requestFramePermissions": []
+}
