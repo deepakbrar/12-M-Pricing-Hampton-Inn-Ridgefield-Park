@@ -152,7 +152,7 @@ export function calculateTotalCost(startDateStr: string, endDateStr: string, roo
     }
     const currentMonthDays = daysByMonth.get(key)!;
 
-    if (dayOfWeek >= 1 && dayOfWeek <= 4  && =7) { // Mon-Thu
+    if (dayOfWeek >= 0 && dayOfWeek <= 4  ) { // Mon-Thu
       currentMonthDays.weekdays++;
     } else { // Fri-Sat
       currentMonthDays.weekendDays++;
