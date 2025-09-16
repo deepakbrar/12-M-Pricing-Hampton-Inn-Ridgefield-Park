@@ -101,7 +101,7 @@
             daysByMonth.set(key, { weekdays: 0, weekendDays: 0 });
           }
           const currentMonthDays = daysByMonth.get(key);
-          if (dayOfWeek >= 1 && dayOfWeek <= 4) {
+          if (dayOfWeek >= 0 && dayOfWeek <= 4) {
             currentMonthDays.weekdays++;
           } else {
             currentMonthDays.weekendDays++;
